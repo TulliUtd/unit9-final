@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Unit 9 | Sublime Project</title>
+
+   <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!--Google font-family-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    
+
+</head>
+<body>
+<!-- <header>
+	<img src="images/toms-restaurant.jpg" class="source-image" style="height: 100%"">
+</header> -->
+<div class="container">
+   <div class="row">
+        <div class="col-lg-12 header">
+        	<h1>Monk's Cafe</h1>
+        	<p>"The Coffee Shop"</p>
+        </div>
+
+        <div class="col-lg-12 responsive">
+       		<img src="images/toms-restaurant.jpg" class="img-responsive">
+        </div>
+    </div>
+
+    <div class="row">
+    	<div class="col-lg-12 reservations">
+	    	<h1>Reservations</h1>
+	    </div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-5 reservations-div">
+	    	<h2>Make a Reservation</h2>
+	    	<form id="reservation-form">
+				<label for="name">Name </label><input type="text" id="namefield" placeholder="Full name"></input> <br/><br/>
+				<label for="date">Day </label><input type="text" id="datepicker"> <br/><br/> 
+
+				<input type="submit" value="Confirm">
+			</form>
+	    </div>
+
+	    <div class="col-lg-2"></div>
+
+	    <div class="col-lg-5 reservations-div">
+	    	<h2>Existing Reservations</h2>
+
+	    	<table>
+				<thead>
+				<th>Column Header 1</th>
+				<th>Column Header 2</th>
+				</thead>
+				<tbody> [ form data will publish here ] </tbody>
+			</table>
+	    </div> 
+	</div>
+
+	<div class="row dine-with-us">    
+    	<div class="col-lg-12">
+    		<h1>Come Dine with Us</h1>
+    	</div>
+
+    	<div class="col-lg-12">
+    		<div id="map" style="height:400px"></div>
+    	</div>
+
+    </div>
+
+    <div class="row customer-reviews">
+    	<div class="col-lg-6">
+    		<img src="images/jerry.jpg" class="img-responsive">
+    	</div>
+
+    	<div class="col-lg-6 quote">
+    		<p>“Big lettuce, big carrots, tomatoes like volleyballs.”
+				<br /><span>— Jerry Seinfeld, on The BIG Salad</span></p>
+    	</div>
+
+    </div>
+
+</div><!-- end container-->
+
+   <script src="js/jquery-3.0.0.js"></script>
+   <script src="js/main.js"></script>
+
+   <!--google maps api-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkDLDJUaN4-7fUogukalHZ3BhQy70GXis&callback=initMap" async defer></script>
+
+    <!--JQuery UI-->
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"></script>
+</body>
+</html>
